@@ -10,7 +10,7 @@ function createTown(data) {
         const roundedLatitude = parseFloat(latitude.toFixed(2));
         const roundedLongitude = parseFloat(longitude.toFixed(2));
         const city = {
-            town: town,
+            name: town,
             latitude: roundedLatitude,
             longitude: roundedLongitude,
         };

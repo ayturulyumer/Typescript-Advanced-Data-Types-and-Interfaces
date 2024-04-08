@@ -1,5 +1,5 @@
 type Town = {
-  town: string;
+  name: string;
   latitude: number;
   longitude: number;
 };
@@ -18,7 +18,7 @@ function createTown(data: string[]): Town[] {
     const roundedLongitude: number = parseFloat(longitude.toFixed(2));
 
     const city: Town = {
-      town: town,
+      name: town,
       latitude: roundedLatitude,
       longitude: roundedLongitude,
     };
