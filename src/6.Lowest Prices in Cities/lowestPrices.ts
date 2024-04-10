@@ -24,7 +24,6 @@ function findLowestPrices(data: string[]): void {
   }
 }
 
-// Example usage:
 const input: string[] = [
   "Sample Town | Sample Product | 1000",
   "Sample Town | Orange | 2",
